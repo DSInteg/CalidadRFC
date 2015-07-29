@@ -25,10 +25,10 @@ public class Configuracion {
     public ResultSet resultSet;
     //final String carpetaLocal="\\\\ServExpedientes\\";
     final String carpetaLocal = "c:\\escaneos\\Local\\";
-    final String carpetaRemota = "c:\\escaneos\\";
+    final String carpetaRemota = "\\\\ServExpedientes\\";
     final String carpetaTemporal = "c:\\escaneos\\Local\\Temporal\\";
-    final String USUARIO="root";
-    final String PASSWORD="";
+    final String USUARIO="curp";
+    final String PASSWORD="curpuset";
     final String DATABASE_URL="jdbc:mysql://127.0.0.1/curp_uset";
     
     public Connection connection;

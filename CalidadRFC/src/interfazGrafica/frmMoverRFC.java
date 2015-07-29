@@ -474,7 +474,8 @@ public class frmMoverRFC extends javax.swing.JFrame {
             String nombreFinal=curp+"_"+"RFC"+".pdf";
             doc.nuevoNombre = nombreFinal;
             doc.setRuta(ruta.carpetaLocal+"CarpetaRFC\\");
-            doc.rutades=ruta.carpetaRemota+"aceptadosCT\\"+ct+"\\"+curp+"\\";
+            doc.rutades=ruta.carpetaRemota+"aceptados\\";
+            //Aqui es donde debemos de cambiar lo de la carpeta remota
             doc = doc.renombrar();
         }
         return doc;
